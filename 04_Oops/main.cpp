@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
      * 数组降阶问题，当数组作为参数传递时，会退化为指针
      * 参考 http://blog.csdn.net/jiangxinyu/article/details/7767065
      */
-    cout <<"OPPS 1!" <<endl;
+    cout <<"OOPS 1!" <<endl;
 
     int array[] = {1, 2, 3, 4};
     int length = sizeof(array) / sizeof(int);
@@ -37,7 +37,7 @@ int main(int argc, char** argv) {
      * 理解函数调用的实质，不要被表面上的语法所迷惑
      * http://blog.csdn.net/primeprime/article/details/50726918
      */
-    cout <<"OPPS 2!" <<endl;
+    cout <<"OOPS 2!" <<endl;
 
     MyClass *myClass = NULL;
 
