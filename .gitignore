@@ -4,3 +4,6 @@ CMakeScripts
 Makefile
 cmake_install.cmake
 *binary_*
+
+.idea
+02_DataStructure/01_Tree/02_DataStructure_Tree.cbp
