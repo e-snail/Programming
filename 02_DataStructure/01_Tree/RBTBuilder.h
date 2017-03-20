@@ -1,0 +1,12 @@
+//
+// Created by WuYongbo on 17/3/19.
+//
+
+#ifndef INC_02_DATASTRUCTURE_TREE_RBTBUILDER_H_H
+#define INC_02_DATASTRUCTURE_TREE_RBTBUILDER_H_H
+
+#include "RBTNode.h"
+
+RBTNode * buildRBTree();
+
+#endif //INC_02_DATASTRUCTURE_TREE_RBTBUILDER_H_H
