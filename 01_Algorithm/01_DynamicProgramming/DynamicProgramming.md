@@ -35,7 +35,20 @@ d(3) = ?
 
 总结： d(i) = min { d(i-V<sub>j</sub>)+1 }, 其中i-V<sub>j</sub> >= 0, V<sub>j</sub>表示第j个硬币的面值
 
+实现的伪码如下:
 
+```
+Min[0]=0
 
+for i = 1 to S
+    for j = 0 to N-1
+        if (Vj <= j  AND (Min[i-Vj]+1 < Min[i]))
+            then Min[i] = Min[i-Vj]+1 
+        
+```
+
+C++实现代码：
+
+DPCoins.cpp
 
 
