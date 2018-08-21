@@ -72,6 +72,16 @@ int main(int argc, char** argv) {
     cout <<"sizeof (int *) = " <<sizeof(int*) <<endl; 
     cout <<"sizeof (int) = " <<sizeof(int) <<endl; 
 
+    	/**
+	 * sizeof 和 strlen 的区别
+	 * 	1. sizeof是运算符，strlen是函数. 运算符就是说sizeof跟 + - = 是相同类型的, 所以‘sizeof chs’ 都不用加括弧
+	 * 	2. sizeof是根据变量声明的静态信息来计算结果的, 在编辑期确定计算结果了; 如果变量在运行过程中扩充了，sizeof的结果不变
+	 * 	3. strlen是根据结束符\0来计算的，在运行时才把结果计算出来
+	 */
+    char chs[20] = "0123456789";
+    cout <<"sizeof chs = " << sizeof chs <<endl;
+    cout <<"strlen chs = " << strlen(chs) <<endl;
+
     cout <<endl;
 
     return 0;
