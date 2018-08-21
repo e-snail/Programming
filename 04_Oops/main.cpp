@@ -8,7 +8,7 @@
 using namespace std;
 
 void getArrayLength(int array[]) {
-    int length = sizeof(array) / sizeof(int);
+    int length = sizeof(array) / sizeof(array[0]);
     cout <<"getArrayLength " << length <<endl;
 }
 
